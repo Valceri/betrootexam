@@ -45,10 +45,11 @@ const Header = () => {
                         </div>
                     </nav>
                 </div>
-
+                <a href='pricing' className='header__button-link'>
                 <span className={`header__button`}>
-                    <a href='/resources' className='header__button-link'>Sign Up</a>
+                    Sign Up
                 </span>
+                </a>
             </div>
             <hr />
         </div>
