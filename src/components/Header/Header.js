@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { useState } from 'react';
+import Logo from '../Logo/Logo';
 
 const navigation = [
     {
@@ -8,57 +10,48 @@ const navigation = [
     },
     {
         id: 2,
-        title: 'Masters',
-        path: '/master'
+        title: 'Products',
+        path: '/products'
     },
     {
         id: 3,
-        title: 'Blog',
-        path: '/blog'
+        title: 'Resources',
+        path: '/resources'
     },
     {
         id: 4,
-        title: 'About',
-        path: '/about'
+        title: 'Pricing',
+        path: '/pricing'
     }
 ]
 
-const Header = () => (
-    <div>
-
+const Header = () => {
+    const [isClicked, setIsClicked] = useState(false)
+    return (
         <div className='header'>
-            <div className='container'>
-                <div className='header__image'>
+            <div className='container header__container'>
+                <div className='header__block'>
+                <Logo/>
+                    <nav className='nav'>
+                        <ul className={`nav__menu ${isClicked && 'active'}`}>
+                            {navigation.map(({id, title, path}) => (
+                                <li className={`nav__menu-item ${isClicked && 'active'}`} key={id}><Link href={path}>{title}</Link></li>
+                            ))}
+                        </ul>
+                        <div className={`nav__burger ${isClicked && 'active'}`} onClick={() => setIsClicked(!isClicked)} >
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
                 </div>
-                <nav className='nav'>
-                    <ul>
-                        {navigation.map(({id, title, path}) => (
-                            <li key={id}><Link href={path}>{title}</Link></li>
-                        ))}
-                    </ul>
-                </nav>
-            </div>
-            <h2>
-                header
-            </h2>
-        </div>
-        <div className='header is-active'>
-            <div className='container'>
-                <div className='header__image'>
-                </div>
-                <nav className='nav'>
-                    <ul>
-                        {navigation.map(({id, title, path}) => (
-                            <li key={id}><Link href={path}>{title}</Link></li>
-                        ))}
-                    </ul>
-                </nav>
-            </div>
-            <h2>
-                header
-            </h2>
-        </div>
-    </div>
-);
 
+                <span className={`header__button`}>
+                    <a href='/resources' className='header__button-link'>Sign Up</a>
+                </span>
+            </div>
+            <hr />
+        </div>
+    );
+}
 export default Header;
