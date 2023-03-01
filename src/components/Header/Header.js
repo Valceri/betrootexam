@@ -10,16 +10,12 @@ const navigation = [
     },
     {
         id: 2,
-        title: 'Products',
-        path: '/products'
+        title: 'Blog',
+        path: '/Blog'
     },
+
     {
         id: 3,
-        title: 'Resources',
-        path: '/resources'
-    },
-    {
-        id: 4,
         title: 'Pricing',
         path: '/pricing'
     }
