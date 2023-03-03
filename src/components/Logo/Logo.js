@@ -4,12 +4,12 @@ const Logo = () => {
             <a href="/">
             <svg width="145" height="38" viewBox="0 0 145 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_dd_275_97920)">
-<g clip-path="url(#clip0_275_97920)">
+<g clipPath="url(#clip0_275_97920)">
 <rect x="3" y="2" width="32" height="32" rx="8" fill="white"/>
 <rect x="3" y="2" width="32" height="32" rx="8" fill="url(#paint0_linear_275_97920)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19 4.03882C11.2894 4.03882 5.03882 10.2894 5.03882 18C5.03882 25.7105 11.2894 31.9612 19 31.9612C26.7105 31.9612 32.9612 25.7105 32.9612 18C32.9612 10.2894 26.7105 4.03882 19 4.03882ZM4.96115 18C4.96115 10.2466 11.2466 3.96115 19 3.96115C26.7534 3.96115 33.0388 10.2466 33.0388 18C33.0388 25.7534 26.7534 32.0388 19 32.0388C11.2466 32.0388 4.96115 25.7534 4.96115 18Z" fill="#D0D5DD"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19 14.0779C16.8338 14.0779 15.0777 15.834 15.0777 18.0002C15.0777 20.1665 16.8338 21.9225 19 21.9225C21.1662 21.9225 22.9223 20.1665 22.9223 18.0002C22.9223 15.834 21.1662 14.0779 19 14.0779ZM15 18.0002C15 15.7911 16.7909 14.0002 19 14.0002C21.2091 14.0002 23 15.7911 23 18.0002C23 20.2094 21.2091 22.0002 19 22.0002C16.7909 22.0002 15 20.2094 15 18.0002Z" fill="#D0D5DD"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19 15.3201C17.5201 15.3201 16.3204 16.5198 16.3204 17.9997C16.3204 19.4796 17.5201 20.6793 19 20.6793C20.4799 20.6793 21.6796 19.4796 21.6796 17.9997C21.6796 16.5198 20.4799 15.3201 19 15.3201ZM16.2427 17.9997C16.2427 16.4769 17.4772 15.2424 19 15.2424C20.5228 15.2424 21.7573 16.4769 21.7573 17.9997C21.7573 19.5225 20.5228 20.757 19 20.757C17.4772 20.757 16.2427 19.5225 16.2427 17.9997Z" fill="#D0D5DD"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M19 4.03882C11.2894 4.03882 5.03882 10.2894 5.03882 18C5.03882 25.7105 11.2894 31.9612 19 31.9612C26.7105 31.9612 32.9612 25.7105 32.9612 18C32.9612 10.2894 26.7105 4.03882 19 4.03882ZM4.96115 18C4.96115 10.2466 11.2466 3.96115 19 3.96115C26.7534 3.96115 33.0388 10.2466 33.0388 18C33.0388 25.7534 26.7534 32.0388 19 32.0388C11.2466 32.0388 4.96115 25.7534 4.96115 18Z" fill="#D0D5DD"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M19 14.0779C16.8338 14.0779 15.0777 15.834 15.0777 18.0002C15.0777 20.1665 16.8338 21.9225 19 21.9225C21.1662 21.9225 22.9223 20.1665 22.9223 18.0002C22.9223 15.834 21.1662 14.0779 19 14.0779ZM15 18.0002C15 15.7911 16.7909 14.0002 19 14.0002C21.2091 14.0002 23 15.7911 23 18.0002C23 20.2094 21.2091 22.0002 19 22.0002C16.7909 22.0002 15 20.2094 15 18.0002Z" fill="#D0D5DD"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M19 15.3201C17.5201 15.3201 16.3204 16.5198 16.3204 17.9997C16.3204 19.4796 17.5201 20.6793 19 20.6793C20.4799 20.6793 21.6796 19.4796 21.6796 17.9997C21.6796 16.5198 20.4799 15.3201 19 15.3201ZM16.2427 17.9997C16.2427 16.4769 17.4772 15.2424 19 15.2424C20.5228 15.2424 21.7573 16.4769 21.7573 17.9997C21.7573 19.5225 20.5228 20.757 19 20.757C17.4772 20.757 16.2427 19.5225 16.2427 17.9997Z" fill="#D0D5DD"/>
 <path d="M18.9612 2H19.0388V34H18.9612V2Z" fill="#D0D5DD"/>
 <path d="M35 17.9609L35 18.0386L3 18.0386L3 17.9609L35 17.9609Z" fill="#D0D5DD"/>
 <path d="M29.602 2H29.6796V34H29.602V2Z" fill="#D0D5DD"/>
@@ -18,16 +18,16 @@ const Logo = () => {
 <path d="M8.32037 2H8.39804V34H8.32037V2Z" fill="#D0D5DD"/>
 <path d="M35 28.6016L35 28.6792L3 28.6792L3 28.6016L35 28.6016Z" fill="#D0D5DD"/>
 <path d="M35 12.6406L35 12.7183L3 12.7183L3 12.6406L35 12.6406Z" fill="#D0D5DD"/>
-<path d="M35 23.2812L35 23.3589L3 23.3589L3 23.2812L35 23.2812Z" fill="#D0D5DD"/>
+<path d="M35 23.2812L35 23.3589L3 23.3589L3 23.2812L35 23.2812Z" />
 <path d="M35 7.32031L35 7.39798L3 7.39798L3 7.32031L35 7.32031Z" fill="#D0D5DD"/>
-<g filter="url(#filter1_dd_275_97920)">
+<g>
 <circle cx="19" cy="18" r="8" fill="url(#paint1_linear_275_97920)"/>
 </g>
 <g filter="url(#filter2_b_275_97920)">
-<path d="M3 18H35V21.2C35 25.6804 35 27.9206 34.1281 29.6319C33.3611 31.1372 32.1372 32.3611 30.6319 33.1281C28.9206 34 26.6804 34 22.2 34H15.8C11.3196 34 9.07937 34 7.36808 33.1281C5.86278 32.3611 4.63893 31.1372 3.87195 29.6319C3 27.9206 3 25.6804 3 21.2V18Z" fill="white" fill-opacity="0.2"/>
+<path d="M3 18H35V21.2C35 25.6804 35 27.9206 34.1281 29.6319C33.3611 31.1372 32.1372 32.3611 30.6319 33.1281C28.9206 34 26.6804 34 22.2 34H15.8C11.3196 34 9.07937 34 7.36808 33.1281C5.86278 32.3611 4.63893 31.1372 3.87195 29.6319C3 27.9206 3 25.6804 3 21.2V18Z" fill="white" fillOpacity="0.2"/>
 </g>
 </g>
-<rect x="3.1" y="2.1" width="31.8" height="31.8" rx="7.9" stroke="#D0D5DD" stroke-width="0.2"/>
+<rect x="3.1" y="2.1" width="31.8" height="31.8" rx="7.9" stroke="#D0D5DD" strokeWidth="0.2"/>
 </g>
 <path d="M54.0037 10.4545H56.6386V19.9574C56.6386 20.999 56.3924 21.9152 55.9 22.7059C55.4123 23.4967 54.7258 24.1146 53.8403 24.5596C52.9549 25 51.9204 25.2202 50.7366 25.2202C49.5482 25.2202 48.5113 25 47.6258 24.5596C46.7404 24.1146 46.0539 23.4967 45.5662 22.7059C45.0785 21.9152 44.8347 20.999 44.8347 19.9574V10.4545H47.4696V19.7372C47.4696 20.3433 47.6022 20.883 47.8673 21.3565C48.1372 21.83 48.516 22.2017 49.0037 22.4716C49.4914 22.7367 50.069 22.8693 50.7366 22.8693C51.4043 22.8693 51.9819 22.7367 52.4696 22.4716C52.962 22.2017 53.3408 21.83 53.606 21.3565C53.8711 20.883 54.0037 20.3433 54.0037 19.7372V10.4545Z" fill="#101828"/>
 <path d="M61.96 18.6079V25H59.389V14.0909H61.8464V15.9446H61.9742C62.2252 15.3338 62.6253 14.8485 63.1745 14.4886C63.7285 14.1288 64.4127 13.9488 65.2271 13.9488C65.9799 13.9488 66.6357 14.1098 67.1944 14.4318C67.7578 14.7538 68.1934 15.2202 68.5012 15.8309C68.8137 16.4417 68.9676 17.1827 68.9629 18.054V25H66.3918V18.4517C66.3918 17.7225 66.2024 17.152 65.8236 16.74C65.4496 16.3281 64.9311 16.1221 64.2682 16.1221C63.8184 16.1221 63.4183 16.2216 63.068 16.4204C62.7223 16.6146 62.4501 16.8963 62.2512 17.2656C62.0571 17.6349 61.96 18.0824 61.96 18.6079Z" fill="#101828"/>
@@ -40,8 +40,8 @@ const Logo = () => {
 <path d="M136.133 10.4545H138.768V19.9574C138.768 20.999 138.521 21.9152 138.029 22.7059C137.541 23.4967 136.855 24.1146 135.969 24.5596C135.084 25 134.049 25.2202 132.866 25.2202C131.677 25.2202 130.64 25 129.755 24.5596C128.869 24.1146 128.183 23.4967 127.695 22.7059C127.207 21.9152 126.964 20.999 126.964 19.9574V10.4545H129.599V19.7372C129.599 20.3433 129.731 20.883 129.996 21.3565C130.266 21.83 130.645 22.2017 131.133 22.4716C131.62 22.7367 132.198 22.8693 132.866 22.8693C133.533 22.8693 134.111 22.7367 134.599 22.4716C135.091 22.2017 135.47 21.83 135.735 21.3565C136 20.883 136.133 20.3433 136.133 19.7372V10.4545Z" fill="#101828"/>
 <path d="M144.266 10.4545V25H141.632V10.4545H144.266Z" fill="#101828"/>
 <defs>
-<filter id="filter0_dd_275_97920" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_dd_275_97920" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="1"/>
 <feGaussianBlur stdDeviation="1"/>
@@ -54,8 +54,8 @@ const Logo = () => {
 <feBlend mode="normal" in2="effect1_dropShadow_275_97920" result="effect2_dropShadow_275_97920"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_275_97920" result="shape"/>
 </filter>
-<filter id="filter1_dd_275_97920" x="8" y="8" width="22" height="22" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter1_dd_275_97920" x="8" y="8" width="22" height="22" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood fillOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="1"/>
 <feGaussianBlur stdDeviation="1"/>
@@ -68,19 +68,18 @@ const Logo = () => {
 <feBlend mode="normal" in2="effect1_dropShadow_275_97920" result="effect2_dropShadow_275_97920"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_275_97920" result="shape"/>
 </filter>
-<filter id="filter2_b_275_97920" x="-2" y="13" width="42" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter2_b_275_97920" x="-2" y="13" width="42" height="26" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_275_97920"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_275_97920" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_275_97920" x1="19" y1="2" x2="19" y2="34" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="#D0D5DD"/>
+<stop stopColor="white"/>
+<stop offset="1" stopColor="#D0D5DD"/>
 </linearGradient>
 <linearGradient id="paint1_linear_275_97920" x1="15" y1="26" x2="23" y2="10" gradientUnits="userSpaceOnUse">
-<stop stop-color="#53389E"/>
-<stop offset="1" stop-color="#6941C6"/>
+<stop stopColor="#53389E"/>
+<stop offset="1" stopColor="#6941C6"/>
 </linearGradient>
 <clipPath id="clip0_275_97920">
 <rect x="3" y="2" width="32" height="32" rx="8" fill="white"/>

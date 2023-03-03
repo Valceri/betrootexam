@@ -3,6 +3,9 @@
 @import 'block/footer';
 @import 'block/header';
 @import 'sections/hero';
+@import 'block/blog/blog';
+@import 'block/blog/blogList.scss';
+@import 'block/blog/blogTags.scss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body {
