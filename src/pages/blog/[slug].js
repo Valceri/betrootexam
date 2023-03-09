@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import ReactMarkdown from 'react-markdown';
 import BlogCard from "./../../../alpina-ui/src/components/Blog/BlogCard";
 
-
+import AuthorPhoto from "@/components/Blog/AuthorPhoto";
 
 const OneBlogPage = (props) => {
 	
