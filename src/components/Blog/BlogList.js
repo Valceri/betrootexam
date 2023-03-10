@@ -18,7 +18,7 @@ const BlogList = () => {
                         </svg>
                       </div>
                       <div className="blog-list__description" style={{width: '384px', maxWidth: '100%'}}>
-                        {description}
+                
                       </div>
                       <div className="blog-list__tags">
                         {tags.map(item => {
