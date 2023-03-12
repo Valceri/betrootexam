@@ -8,25 +8,19 @@ const BlogPage = (props) => {
 	const serviceData = props.data.data;
 
 	return <div>
-
-		{serviceData.map(({ id, attributes }) => (
+	{serviceData.map(({ id, attributes }) => (
 			<Link key={id} href={'/blog/' + attributes.slug}>
-				{/* <BlogList image={attributes.image.data[0].attributes.url} 
-									title={attributes.title} 
-									description={attributes.description} 
-									authorName={attributes.authors.data[0].attributes.name}
-									date={attributes.date}
-									tags={attributes.tags.data}
-				/> */}
-				<BlogList/>
-
 				<BlogList 
-				image={attributes.image.data[0].attributes.formats.thumbnail.url}
-				title={attributes.title}
+				image={attributes.image.data[0].attributes.url} 
+				title={attributes.title} 
+				description={attributes.description} 
+				date={attributes.date}
+									// authorName={attributes.authors.data[0].attributes.authorName}
+									// authorDate={attributes.authors.data[0].attributes.authorDate}
+									// tags={attributes.tags.data}
 				/>
-		   </Link>
+			</Link>
 		))}
-
 	</div>
 
 }

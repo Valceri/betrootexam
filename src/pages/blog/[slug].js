@@ -33,10 +33,10 @@ export async function getStaticProps(context) {
 		props: { data: response.data[0] }, // will be passed to the page component as props
 	};
 }
-
-export async function getStaticPaths(context) {
+// ?filters[slug][$eq]=${context.params.slug}&populate=*`
+export async function getStaticPaths() {
 	
-	const res = await fetch(`${process.env.API_URL}/blogs?filters[slug][$eq]=${context.params.slug}&populate=*`);
+	const res = await fetch(`${process.env.API_URL}/blogs`);
 	const data = await res.json();
 
 	return {
