@@ -1,14 +1,13 @@
-// import BlogTags from "./BlogTags";
 const BlogList = (props) => (
 	<div className="container">
 		<div className="blog-list">
 			<article className="blog-list__item">
 				<img className="blog-list__img" src={props.image} alt={props.title}/>
 				<div className="blog-list__author">
-					<div className="author-name">
-						{/* {props.authorName} */}
-					</div>
 					<div className="author-date">
+						<span className="author-name">
+						{props.name}
+						</span>
 						{props.date}
 					</div>
 				</div>
@@ -22,7 +21,9 @@ const BlogList = (props) => (
 					{props.description}
 				</div>
 				<div className="blog-list__tags">
-					{/* <BlogTags/> */}
+				{props.tags.map(({id, attributes}) => (
+                <div className='tag' key={id}>{attributes.name}</div>
+        		))}
 				</div>
 			</article>
 		</div>

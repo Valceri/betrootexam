@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import BlogCard from "./../../../alpina-ui/src/components/Blog/BlogCard";
+import BlogCard from "../../components/Blog/BlogCard";
 
 
 const OneBlogPage = (props) => {

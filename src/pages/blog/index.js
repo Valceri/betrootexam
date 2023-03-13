@@ -15,9 +15,9 @@ const BlogPage = (props) => {
 				title={attributes.title} 
 				description={attributes.description} 
 				date={attributes.date}
-									// authorName={attributes.authors.data[0].attributes.authorName}
+				name={attributes.authors.data[0].attributes.name}
 									// authorDate={attributes.authors.data[0].attributes.authorDate}
-									// tags={attributes.tags.data}
+				tags={attributes.tags.data}
 				/>
 			</Link>
 		))}
