@@ -5,17 +5,24 @@ import BlogCard from "../../components/Blog/BlogCard";
 
 const OneBlogPage = (props) => {
 	
-	// const { title, description, richtext } = props.data.attributes;
-	// const {url} = props.data.attributes.image.data[0].attributes;
-	// const {name, desc } = props.data.attributes.authors.data[0].attributes;
+	const { title, description, richtext } = props.data.attributes;
+	const {url} = props.data.attributes.image.data[0].attributes;
+	const {name} = props.data.attributes.authors.data[0].attributes;
 	const {tags} = props.data.attributes;
-	// const {date} = props.data.attributes;
-	// const {image} = props.data.attributes.authors.data[0].attributes;
-	
+	const {date} = props.data.attributes;
+	// const {image} = props.data.attributes.image;
+	const {publish} = props.data.attributes.publishedAt;
 	return (
 		<div>
 			<BlogCard 
 				tags={tags.data} 	
+				title={title}
+				description={description}
+				text={richtext}
+				image={url}
+				name={name}
+				date={date}
+				publish={publish}
 			/>
 		</div>
 	);

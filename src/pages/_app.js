@@ -10,7 +10,7 @@ const MyApp = ({ Component, pageProps }) => (
         <Head>
             <link href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap' rel='stylesheet'/>
         </Head>
-        <main>
+        <main className="b">
             <Component {...pageProps} />
         </main>
     </Layout>

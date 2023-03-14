@@ -7,7 +7,7 @@ const BlogPage = (props) => {
 	const router = useRouter()
 	const serviceData = props.data.data;
 
-	return <div>
+	return <div className="d">
 	{serviceData.map(({ id, attributes }) => (
 			<Link key={id} href={'/blog/' + attributes.slug}>
 				<BlogList 

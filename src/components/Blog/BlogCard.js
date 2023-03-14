@@ -1,19 +1,23 @@
+import { Prosto_One } from "next/font/google";
+import Image from "next/image";
 const BlogCard = (props) => (
 	<div className="color">
 
 	<div className="blog">
 		<div className="container blog__container">
 			<div className="blog__card">
-				
 				<div className="blog__card-author">
-					{props.authorDate}
-					{props.authorName}
+					{props.name}
+					{props.publish}
 				</div>
 				<div className="blog__card-title">
 					{props.title}
 				</div>
 				<div className="blog__card-description">
 					{props.description}
+				</div>
+				<div>
+					{props.text}
 				</div>
 				<div className="blog__card-tags">
 				{props.tags.map(({id, attributes}) => (
