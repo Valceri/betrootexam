@@ -7,8 +7,12 @@ const BlogCard = (props) => (
 		<div className="container blog__container">
 			<div className="blog__card">
 				<div className="blog__card-author">
+				<span className="author-name blog__author-name">
 					{props.name}
-					{props.publish}
+				</span>
+				<span className="blog__author-name">
+					{props.date}
+				</span>
 				</div>
 				<div className="blog__card-title">
 					{props.title}
@@ -17,14 +21,15 @@ const BlogCard = (props) => (
 					{props.description}
 				</div>
 				<div>
-					{props.text}
 				</div>
 				<div className="blog__card-tags">
 				{props.tags.map(({id, attributes}) => (
                 <div className='tag' key={id}>{attributes.name}</div>
         ))}
 				</div>
-				<img src={props.image} alt={props.title} />
+				<div className="blog__card-img">
+					<img className="blog__card-img--styles" src={props.image} alt={props.title} />
+				</div>
 			</div>
 		</div>
 	</div>

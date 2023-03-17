@@ -1,7 +1,8 @@
-import Link from "next/link";
 import { useRouter } from "next/router";
 import BlogCard from "../../components/Blog/BlogCard";
-
+import Link from "next/link";
+import remarkGfm from 'remark-gfm';
+import ReactMarkdown from 'react-markdown';
 
 const OneBlogPage = (props) => {
 	
@@ -11,19 +12,23 @@ const OneBlogPage = (props) => {
 	const {tags} = props.data.attributes;
 	const {date} = props.data.attributes;
 	// const {image} = props.data.attributes.image;
-	const {publish} = props.data.attributes.publishedAt;
+
 	return (
 		<div>
 			<BlogCard 
 				tags={tags.data} 	
 				title={title}
 				description={description}
-				text={richtext}
 				image={url}
 				name={name}
 				date={date}
-				publish={publish}
 			/>
+			<div className="container">
+				<ReactMarkdown 
+					children={richtext} 
+					remarkPlugins={[remarkGfm]} 
+				/>
+			</div>
 		</div>
 	);
 };
