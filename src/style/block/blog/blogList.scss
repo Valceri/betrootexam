@@ -2,6 +2,39 @@ a {
     text-decoration: none;
 }
 
+ .blog-page__container {
+    width: 720px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px 30px;
+    
+ }
+
+ .blog-page__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    /* Gray/600 */
+    color: #475467;
+
+    h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        /* identical to box height, or 127% */
+        
+        
+        /* Gray/900 */
+        
+        color: #101828;
+    }
+ }
+
 .d {
     display: flex;
     width: 1215px;

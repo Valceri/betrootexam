@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 
 const OneBlogPage = (props) => {
 	
-	const { title, description, richtext } = props.data.attributes;
+	const { title, description, richText } = props.data.attributes;
 	const {url} = props.data.attributes.image.data[0].attributes;
 	const {name} = props.data.attributes.authors.data[0].attributes;
 	const {tags} = props.data.attributes;
@@ -23,9 +23,9 @@ const OneBlogPage = (props) => {
 				name={name}
 				date={date}
 			/>
-			<div className="container">
+			<div className="blog-page__container blog-page__text">
 				<ReactMarkdown 
-					children={richtext} 
+					children={richText} 
 					remarkPlugins={[remarkGfm]} 
 				/>
 			</div>
