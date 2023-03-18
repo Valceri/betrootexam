@@ -4,33 +4,18 @@ import Logo from '../Logo/Logo';
 const navigationFooter = [
     {
         id: 1,
-        title: 'Overview',
+        title: 'Home',
         path: '/'
     },
     {
         id: 2,
-        title: 'Features',
-        path: '/master'
-    },
-    {
-        id: 3,
-        title: 'Pricing',
+        title: 'Blog',
         path: '/blog'
     },
     {
-        id: 4,
-        title: 'Careers',
-        path: '/about'
-    },
-    {
-        id: 5,
-        title: 'Help',
-        path: '/about'
-    },
-    {
-        id: 6,
-        title: 'Privacy',
-        path: '/about'
+        id: 3,
+        title: 'Contact Us',
+        path: '/blog'
     }
 ]
 

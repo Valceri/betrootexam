@@ -16,7 +16,7 @@ const navigation = [
 
     {
         id: 3,
-        title: 'Pricing',
+        title: 'Contact Us',
         path: '/pricing'
     }
 ]
