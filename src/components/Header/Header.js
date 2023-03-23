@@ -18,6 +18,11 @@ const navigation = [
         id: 3,
         title: 'Contact Us',
         path: '/pricing'
+    },
+    {
+        id: 3,
+        title: 'Products',
+        path: '/good'
     }
 ]
 

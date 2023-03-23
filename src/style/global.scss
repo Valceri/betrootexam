@@ -6,6 +6,7 @@
 @import 'block/blog/blog';
 @import 'block/blog/blogList.scss';
 @import 'block/blog/blogTags.scss';
+@import 'block/good/goodList.scss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body {
@@ -15,8 +16,6 @@ body {
   max-width: 1216px;
   margin: 0 auto;
 }
-
-
 
 .navbar {
   width: 100%;
