@@ -2,8 +2,133 @@
     display: flex;
     gap: 48px;
     isolation: isolate;
-    width: 1166px;
-    height: 346px;
-    background: #fdfcfc;;
+    width: 100%;
+    max-width: 1166px;
+    background: #ffffff;
     border-radius: 24px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    z-index: 1000;
+    &-image {
+        display: flex;
+        align-items: center;
+        margin-left: 24px;
+        &--picture {
+            width: 100%;
+            max-height: 350px;
+            max-width: 350px;
+            object-fit: contain;
+        }
+    }
+    &-info {
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        max-width: 766px;
+        color:black;
+        flex-direction: column;
+        list-style: none;
+        
+        .li:first-child {
+            order: 1;
+        }
+        
+        .li:nth-child(2) {
+            order: 3;
+        }
+        
+        .li:nth-child(3) {
+            order: 2;
+        }
+        &--headtext {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1px;
+        }
+        &__product-description {
+            margin-top: 20px;
+        }
+
+        &__product-name {
+            margin-top: 20px;
+        }
+
+        &__button-container {
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            margin-top: 70px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        &__button-container .products__list-info__button {
+            width: 118px;
+            height: 44px;
+            background: #3470FF;
+            border-radius: 12px;
+            color: white;
+            border: none;
+        }
+    }
+
 }
+
+
+@media (max-width: 600px) {
+    .products__list{
+        flex-direction: column;
+
+        &-info {
+            padding: 10px;
+            display: flex;
+            width: 100%;
+            max-width: 766px;
+            color:black;
+            flex-direction: column;
+            list-style: none;
+            
+            li:first-child {
+                order: 1;
+            }
+            
+            li:nth-child(2) {
+                order: 4;
+                display: list-item;
+                margin-top: 10px;
+            }
+            
+            li:nth-child(3) {
+                order: 3;
+            }
+
+            li:nth-child(4) {
+                order: 4;
+            }
+
+            li:nth-child(5) {
+                order: 5;
+            }
+
+            li:nth-child(6) {
+                order: 6;
+            }
+
+            &--headtext {
+                li:first-child {
+                    order: 2;
+                }
+                li:nth-child(2) {
+                    display: none;
+                }
+            }
+
+            &__button-container {
+               justify-content: flex-start;
+            }
+        }
+    }
+}
+

@@ -1,16 +1,29 @@
 const ClinicList = (props) => (
 
-	<div className="container">
+	<div className="container ">
 		<div className="products__list">
 			<div className="products__list-image">
 				<img className="products__list-image--picture" src={props.image} alt={props.title}></img>
 			</div>
-			<div className="product__list-info">
-				<ul className="products__list-info--type">
-					<li>{props.type}</li>
-					<li>{props.price} <span>UAH</span></li>
-				</ul>
-			</div>
+			<ul className="products__list-info">
+				<li><ul className="products__list-info--headtext">
+						<li className="products__list-info--headtext__type good-list__product-type">{props.type}</li>
+						<li className="products__list-info--headtext__type good-list__product-price">Price:<span style={{color : "#38CD3E"}}> {props.price} UAH</span></li>
+					</ul>	
+				</li>
+				<li className="products__list-info--headtext__type good-list__product-price hide">Price:<span style={{color : "#38CD3E"}}> {props.price} UAH</span></li>
+				<li className="products__list-info__product-name  good-list__product-name">Flexispot EG8</li>
+				<li></li>
+				<li className="products__list-info__product-description good-list__product-description">
+					Comhar All-in-One Standing Desk offers the perfect solution for working from home.
+					This revolutionary workstation is a versatile and practical standing desk that not only helps boost.
+					productivity by preventing you from sitting all day, but it's packed with features and a classy design that sets it apart.
+				</li>
+				
+				<li className="products__list-info__button-container">
+					<button className="products__list-info__button good-list__product-button">Amazon</button>
+				</li>
+			</ul>
 		</div>
 	</div>
 )

@@ -9,7 +9,7 @@ const GoodsPage = (props) => {
     console.log(props.data);
     console.log(props.data.attributes)
     console.log(serviceData);
-    return <div className="container">
+    return <div className="container product__list-container">
 
         {serviceData.map(({id, attributes }) => (
             <Link key={id} href={'/good/' + attributes.slug}>
