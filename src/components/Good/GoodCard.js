@@ -14,10 +14,11 @@ const GoodCard = (props) => {
 				<div className='good__content-image'>
 					<img className="good__content-image--picture" src={props.image} alt={props.title}></img>
 				</div>
-				
+				<div className='slider-items'>
 					{props.gallery.map(({ id, attributes }) => (
 									<img className='good__content-slider' key={id} src={attributes.url}/>
 					))}
+				</div>
 			</div>	
 			<div className='good__content-info'>
 				<div className='good__content-info--main'>
