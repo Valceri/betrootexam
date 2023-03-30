@@ -105,34 +105,29 @@
         position: absolute;
         left: -120%;
         top: -80px;
-        transition: .2s all;
+        transition: .3s all;
         background-color: white;
         width: 100vw;
         height: 350px;
         display: block;
-
         &.active {
-          top: 130px;
           transition: .3s all;
           display: block;
-          left: 140px;
-          top: 80px;
+          left: 0;
+          top: 81px;
           background-color: white;
-          width: 75vw;
+          width: 100vw;
           height: 350px;
           gap: 20px;
-
           &.active &-item {
             background-color: green;
           }
         }
         &-item {
-          color: #101828;
-
-          margin-top: 32px;
-          margin-left: 16px;
+          margin-top: 20px;
+          margin-left: 20px;
           margin-bottom: 20px;
-          font-size: 16px;
+          font-size: 30px;
         }
       }
       &__burger {
@@ -183,31 +178,18 @@
       &.active {
         left: 20px;
         max-width: 90%;
-
         button {
-          margin-left: 145px;
-          margin-top: -90px;
+          margin-top: 20px;
           height: 44px;
           width: 340px;
-          max-width: 100%;
-          position: relative;
-
+          max-width: 90%;
           &::before {
-            content: "";
-            border-top: 0.1px solid #ccc;
-            position: absolute;
-            left: -26px;
-            width: 100vw;
-            top: 70px;
-          }
-
-          &::after {
             content: "";
             border-top: .1px solid #ccc;
             position: absolute;
-            left: -26px;
+            left: -20px;
             width: 100vw;
-            top: -28px;
+            top: 0px;
           }
         }
       }

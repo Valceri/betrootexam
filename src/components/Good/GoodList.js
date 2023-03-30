@@ -12,7 +12,7 @@ const ClinicList = (props) => (
 					</ul>	
 				</li>
 				<li className="products__list-info--headtext__type good-list__product-price hide">Price:<span style={{color : "#38CD3E"}}> {props.price} UAH</span></li>
-				<li className="products__list-info__product-name  good-list__product-name">Flexispot EG8</li>
+				<li className="products__list-info__product-name  good-list__product-name">{props.name}</li>
 				<li></li>
 				<li className="products__list-info__product-description good-list__product-description">
 					Comhar All-in-One Standing Desk offers the perfect solution for working from home.

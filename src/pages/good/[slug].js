@@ -3,15 +3,18 @@ import remarkGfm from 'remark-gfm';
 import { useRouter } from "next/router";
 import ReactMarkdown from 'react-markdown';
 import GoodCard from "@/components/Good/GoodCard";
+import GallerySlider from "@/components/Good/GoodSlider";
 
 
 const Good = (props) => {
 
 	const {
+
 		type, 
 		name, 
 		price, 
 		amazonLink, 
+		gallery,
 		description, 
 		characterisctics,
 		pros,
@@ -21,6 +24,7 @@ const Good = (props) => {
 		materials,
 		additionalFeatures,
 		height
+
 	} = props.data.attributes;
 	const tags = props.data.attributes;
 	const image = props.data.attributes.image.data.attributes.url;
@@ -29,10 +33,11 @@ const Good = (props) => {
 
 	console.log("props", props)
 	// console.log("tags2", props.data.attributes)
+	console.log("gallery", gallery)
 
 	return (
 		<div>
-			{name}
+			
 			<GoodCard
 				image={image}
 				name={name}
@@ -47,8 +52,11 @@ const Good = (props) => {
 				weight={weight}
 				materials={materials}
 				additionalFeatures={additionalFeatures}
-				height={height}				
+				height={height}	
+				gallery={gallery.data}			
 			/>
+		 
+			
 		</div>
 	);
 };

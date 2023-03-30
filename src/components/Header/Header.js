@@ -17,10 +17,10 @@ const navigation = [
     {
         id: 3,
         title: 'Contact Us',
-        path: '/pricing'
+        path: '/contact-us'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Products',
         path: '/good'
     }
