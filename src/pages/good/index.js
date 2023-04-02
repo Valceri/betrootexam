@@ -12,15 +12,19 @@ const GoodsPage = (props) => {
     return <div className="container product__list-container">
 
         {serviceData.map(({id, attributes }) => (
+            <div className="good-list" key={id}>
             <Link key={id} href={'/good/' + attributes.slug}>
-            <GoodList
-                name = {attributes.name}  
-                description = {attributes.description}
-                image = {attributes.image.data.attributes.url}
-                type = {attributes.type}
-                price = {attributes.price}
-             />
+                <GoodList
+                    name = {attributes.name}  
+                    description = {attributes.description}
+                    image = {attributes.image.data.attributes.url}
+                    type = {attributes.type}
+                    price = {attributes.price}
+                />
+            
             </Link>
+                
+          </div>  
         ))}
 
     </div>

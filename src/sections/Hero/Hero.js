@@ -14,9 +14,9 @@ const Hero = () => (
                     </br>
                      company in the process of reinventing banking.
                 </div>
-                <a href='pricing' className='hero__button-link header__button-link'>
+                <a href='contact-us' className='hero__button-link header__button-link'>
                 <span className={`hero-button`}>
-                    Sign Up
+                    Contact Us
                 </span>
                 </a>
             </div>

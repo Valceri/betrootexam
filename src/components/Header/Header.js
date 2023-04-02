@@ -46,9 +46,9 @@ const Header = () => {
                         </div>
                     </nav>
                 </div>
-                <a href='pricing' className='header__button-link'>
+                <a href='contact-us' className='header__button-link'>
                 <span className={`header__button`}>
-                    Sign Up
+                    Contact Us
                 </span>
                 </a>
             </div>

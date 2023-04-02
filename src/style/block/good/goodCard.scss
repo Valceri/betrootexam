@@ -20,6 +20,8 @@
         border-radius: 24px;
         object-fit: cover;
         background: white;
+        width: 100%;
+        max-width: 600px;
     }
     &-image--picture {
         width: 100%;
@@ -195,11 +197,14 @@
 
 .good__list-info__button-container .products__list-info__button{
     width: 118px;
-            height: 44px;
-            background: #3470FF;
-            border-radius: 12px;
-            color: white;
-            border: none;
+    height: 44px;
+    background: #000000;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    &:hover {
+        color: rgb(247, 225, 225);
+    }
 }
 
 .characteristic__list{
@@ -219,5 +224,27 @@
             line-height: 20px;
             color: #8A8A89;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .good__content {
+        flex-direction: column;
+        &--benefits {
+            flex-direction: column;
+            margin-top: 10px;
+            gap: 10px;
+            &__tables {
+                padding: 0;
+                padding-top: 30px;
+                padding-left: 7px;
+                &--elements {
+                    padding-left: 23px;
+                }
+            }
+        }
+    }
+    .slider-items {
+        flex-wrap: wrap;
     }
 }

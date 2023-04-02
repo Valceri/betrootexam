@@ -11,13 +11,12 @@ const BlogPage = (props) => {
 	{serviceData.map(({ id, attributes }) => (
 			<Link key={id} href={'/blog/' + attributes.slug}>
 				<BlogList 
-				image={attributes.image.data[0].attributes.url} 
-				title={attributes.title} 
-				description={attributes.description} 
-				date={attributes.date}
-				name={attributes.authors.data[0].attributes.name}
-									// authorDate={attributes.authors.data[0].attributes.authorDate}
-				tags={attributes.tags.data}
+					image={attributes.image.data[0].attributes.url} 
+					title={attributes.title} 
+					description={attributes.description} 
+					date={attributes.date}
+					name={attributes.authors.data[0].attributes.name}				
+					tags={attributes.tags.data}
 				/>
 			</Link>
 		))}

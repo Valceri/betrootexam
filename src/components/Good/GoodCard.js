@@ -16,7 +16,7 @@ const GoodCard = (props) => {
 				</div>
 				<div className='slider-items'>
 					{props.gallery.map(({ id, attributes }) => (
-									<img className='good__content-slider' key={id} src={attributes.url}/>
+									<img className='good__content-slider slider-items' key={id} src={attributes.url}/>
 					))}
 				</div>
 			</div>	
@@ -34,7 +34,9 @@ const GoodCard = (props) => {
 								</li>
 								<li >
 									<span className='good__list-info__button-container info__button-container'>
-											<button className="products__list-info__button good-list__product-button">Amazon</button>
+											<a href={props.amazonLink}>
+												<button className="products__list-info__button good-list__product-button">Amazon</button>
+											</a>
 									</span>
 								</li>
 							</ul>

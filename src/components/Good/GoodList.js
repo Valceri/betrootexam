@@ -20,9 +20,7 @@ const ClinicList = (props) => (
 					productivity by preventing you from sitting all day, but it's packed with features and a classy design that sets it apart.
 				</li>
 				
-				<li className="products__list-info__button-container">
-					<button className="products__list-info__button good-list__product-button">Amazon</button>
-				</li>
+				
 			</ul>
 		</div>
 	</div>
