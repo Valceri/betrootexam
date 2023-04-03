@@ -34,7 +34,7 @@ const GoodCard = (props) => {
 								</li>
 								<li >
 									<span className='good__list-info__button-container info__button-container'>
-											<a href={props.amazonLink}>
+											<a href={props.amazonLink} target='_blank'>
 												<button className="products__list-info__button good-list__product-button">Amazon</button>
 											</a>
 									</span>

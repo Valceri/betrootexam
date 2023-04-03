@@ -35,7 +35,7 @@ const Footer = () => (
                 })}
             </div>
             <div className="footer__copyright">
-                © 2077 Untitled UI
+                © 2077 Dream-Home Office
             </div>
         </div>
     </div>

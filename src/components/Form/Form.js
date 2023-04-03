@@ -19,8 +19,9 @@ const Form = () => {
                           type="text" 
                           id="first-name" 
                           name="first-name"
-                          placeholder="First name"/
-                          >
+                          placeholder="First name"
+                          required
+                          />
                   </div>
                   <div className="username__item">
                       <label className="label" htmlFor="last-name">Last name</label>
@@ -29,6 +30,7 @@ const Form = () => {
                           id="last-name" 
                           name="last-name"
                           placeholder="Last name"
+                          required
                           />
                   </div>
               </div>
@@ -52,7 +54,7 @@ const Form = () => {
                           id="phone" 
                           name="phone"
                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                          placeholder="000-000-00-00"
+                          placeholder="000-000-0000"
                           required
                           />
               </div>
