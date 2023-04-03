@@ -1,18 +1,16 @@
 import Link from "next/link";
-import heroImage from '../../../public/images/hero/massage.png'
+import heroImage from '../../../public/images/hero/hero.jpg'
 import Image from 'next/image';
 
 const Hero = () => (
     <div className='hero container'>
             <div className="hero__info page-title">
                 <h1 className="hero__info-title page-title">
-                Smart business credit cards
+                Dream-Home Office
                 </h1>
                 <div className="hero__info-description">
-                    Untitled is a next-gen financial technology 
-                    <br>
-                    </br>
-                     company in the process of reinventing banking.
+                A leading provider of home office products and solutions
+                   
                 </div>
                 <a href='contact-us' className='hero__button-link header__button-link'>
                 <span className={`hero-button`}>

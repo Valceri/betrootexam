@@ -137,10 +137,10 @@ const GoodCard = (props) => {
 					<path d="M16 8L8 16" stroke="#FBFBFB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 					<path d="M8 8L16 16" stroke="#FBFBFB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 				</svg>
-					<span className='good__content--benefits__tables-title benefits__title'>Pros</span>
+					<span className='good__content--benefits__tables-title benefits__title'>Cons</span>
 					<div className='good__content--benefits__tables--elements__list benefits__list--item'>
 						<ReactMarkdown 
-							children={props.pros} 
+							children={props.cons} 
 							remarkPlugins={[remarkGfm]} 
 						/>
 					</div>

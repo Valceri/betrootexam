@@ -16,7 +16,7 @@
         width: 1216px;
         height: 418px;
         max-width: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
     &__card {
         &-author {

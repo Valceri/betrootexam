@@ -15,7 +15,12 @@ const navigationFooter = [
     {
         id: 3,
         title: 'Contact Us',
-        path: '/blog'
+        path: '/contact-us',
+    },      
+    {
+        id: 4,
+        title: 'Products',
+        path: '/good'
     }
 ]
 

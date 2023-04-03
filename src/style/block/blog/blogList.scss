@@ -3,7 +3,7 @@ a {
 }
 
  .blog-page__container {
-    width: 720px;
+    
     max-width: 100%;
     margin: 0 auto;
     padding: 0 15px 30px;
@@ -67,6 +67,8 @@ a {
     img {
         margin-bottom: 32px;
         max-width: 100%;
+        width: 343px;
+        height: 215px;
     }
     &__container {
         width: 1286px;
@@ -143,8 +145,6 @@ a {
 
 @media (max-width: 968px) {
     .blog-list {
-        grid-template-columns: repeat(2, minmax(243px, 384px));
-        justify-content: center;
         padding: 0 16px;
         &__title {
             font-size: 22px;

@@ -32,7 +32,9 @@ const Header = () => {
         <div className='header'>
             <div className='container header__container'>
                 <div className='header__block'>
-                <Logo/>
+                <a href='/'>
+                    <Logo/>
+                </a>
                     <nav className='nav'>
                         <ul className={`nav__menu ${isClicked && 'active'}`}>
                             {navigation.map(({id, title, path}) => (
